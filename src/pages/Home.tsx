@@ -73,8 +73,6 @@ const Home: React.FC = () => {
     fetchPokemonDetails(pokemon);
   }, [pokemon, selectedTypes])
 
-  console.log(filteredPokemon)
-
   return (
     <Container maxWidth="lg" sx={{ py: 2 }}>
       <Typography variant="h1">What Pokemon <br/>are you looking for?</Typography>
